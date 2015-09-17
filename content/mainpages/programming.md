@@ -2,6 +2,6 @@
 link = "programming.html"
 Title = "Programming"
 Description = "Various projects & experiments. Includes personal and school projects."
-ImageHref = "asdf"
+imagehref = "programming.jpg"
 Weight = 1
 +++

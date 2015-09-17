@@ -1,8 +1,5 @@
-	  <!--<a href="{{ .Title }}">-->
-	  {{ .Title }}
-	  {{ .Params.link }}
-	  {{ .Params.ImageHref }}
-      <div class="row category" style="background:url({{ .Site.BaseURL }}/images/index/{{ .Title }}.jpg)">
+	  <a href="{{ .Params.link }}">
+      <div class="row category" style="background:url({{ .Site.BaseURL }}/images/index/{{ .Params.imagehref }})">
 	    <div class="six columns cattext">
 			<h3 class="imagetoptitle">{{ .Title }}</h3>
 			<aside style="color=white"><p>{{ .Description }}</p></aside>

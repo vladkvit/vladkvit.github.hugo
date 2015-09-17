@@ -1,7 +1,7 @@
 +++
-link = "programming.html"
-Title = "other"
+link = "other.html"
+Title = "Other"
 Description = "Various projects & experiments. Includes personal and school projects."
-ImageHref = "asdf"
+imagehref = "other.jpg"
 Weight = 3
 +++
