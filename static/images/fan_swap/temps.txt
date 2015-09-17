@@ -1,0 +1,24 @@
+Temps (CPU, Core0, Core1)
+
+Stock heatsink:
+
+idle (BIOS mode)
+43 35 35
+
+idle, max fan
+40 33 35
+
+load, max fan (OCCT) (20min) (3.7k rpm)
+85 85 85
+
+CPU+GPU: 86
+
+New heatsink
+idle (BIOS mode)
+41 33 35
+
+idle, max fan
+40 31 34
+
+load, max fan (OCCT)
+64 63 61

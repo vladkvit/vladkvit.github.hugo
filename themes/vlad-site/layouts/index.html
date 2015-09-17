@@ -1,0 +1,67 @@
+{{ partial "header.html" . }}
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/index_extra.css">
+
+</head>
+<body>
+
+  <div class="row">
+    <div class="twelve columns">
+	  <div class="row">
+			<div class="eight columns">
+				<h2>Vlad Kvitnevskiy</h2>
+			</div>
+			<div class="three columns offset-by-one">
+				<h2>Portfolio</h2>
+			</div>
+	  </div>
+    </div>
+	<hr />
+  </div>
+
+  <div class="row">
+    <div class="eight columns">
+	  <a href="programming.html">
+      <div class="row category" style="background:url({{ .Site.BaseURL }}/images/index/programming.jpg)">
+	    <div class="six columns cattext">
+			<h3 class="imagetoptitle">Programming</h3>
+			<aside style="color=white"><p>Various projects & experiments. Includes personal and school projects.</p></aside>
+		</div>
+		<div class="six columns"></div>
+      </div></a>
+	  
+	  <div class="row"><div class="six columns">&nbsp;</div></div><!--padding hack-->
+
+	  <a href="3D.html">
+      <div class="row category" style="background:url({{ .Site.BaseURL }}/images/index/artistic.jpg)">
+	    <div class="six columns cattext">
+			<h3 class="imagetoptitle">Artistic</h3>
+			<aside style="color=white"><p>3D & CG, VFX, Digital 2D. Traditional 2D & sketches coming soon.</p></aside>
+		</div>
+		<div class="six columns"></div>
+      </div></a>
+	  
+	  <div class="row"><div class="six columns">&nbsp;</div></div><!--padding hack-->
+	  
+	  <a href="mechanical.html">
+      <div class="row category" style="background:url({{ .Site.BaseURL }}/images/index/other.jpg)">
+	    <div class="six columns cattext">
+			<h3 class="imagetoptitle">Other</h3>
+			<aside style="color=white"><p>Tangible / hardware one-off projects. Mostly gadget & laptop mods.</p></aside>
+		</div>
+		<div class="six columns"></div>
+      </div></a>
+	</div>
+	
+    <div class="three columns offset-by-one">
+      <h3>About me</h3>
+      <p>I'm a <a href="http://www.uwaterloo.ca">U.Waterloo</a> Computer Engineering graduate of 2012.</p>
+	  <p>You can find me on <a href="https://github.com/vladkvit">Github</a> and <a href="http://stackoverflow.com/users/293672/darthshader">StackOverflow</a>.
+	  <p>My <a href="https://dl.dropboxusercontent.com/u/87486/Resume%20Vladimir%20Kvitnevskiy.pdf">resume</a>.</p>
+
+      <h3>Contact</h3>
+      <p>My email - <a href = "mailto:vladkvit@outlook.com">vladkvit@outlook.com</a></p>
+      
+    </div>
+  </div>
+
+{{ partial "footer.html" . }}
