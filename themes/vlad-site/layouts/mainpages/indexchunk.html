@@ -1,0 +1,13 @@
+	  <!--<a href="{{ .Title }}">-->
+	  {{ .Title }}
+	  {{ .Params.link }}
+	  {{ .Params.ImageHref }}
+      <div class="row category" style="background:url({{ .Site.BaseURL }}/images/index/{{ .Title }}.jpg)">
+	    <div class="six columns cattext">
+			<h3 class="imagetoptitle">{{ .Title }}</h3>
+			<aside style="color=white"><p>{{ .Description }}</p></aside>
+		</div>
+		<div class="six columns"></div>
+      </div></a>
+	  
+	  <div class="row"><div class="six columns">&nbsp;</div></div><!--padding hack-->

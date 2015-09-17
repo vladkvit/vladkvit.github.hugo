@@ -18,38 +18,17 @@
 	<hr />
   </div>
 
+	
   <div class="row">
     <div class="eight columns">
-	  <a href="programming.html">
-      <div class="row category" style="background:url({{ .Site.BaseURL }}/images/index/programming.jpg)">
-	    <div class="six columns cattext">
-			<h3 class="imagetoptitle">Programming</h3>
-			<aside style="color=white"><p>Various projects & experiments. Includes personal and school projects.</p></aside>
-		</div>
-		<div class="six columns"></div>
-      </div></a>
-	  
-	  <div class="row"><div class="six columns">&nbsp;</div></div><!--padding hack-->
 
-	  <a href="3D.html">
-      <div class="row category" style="background:url({{ .Site.BaseURL }}/images/index/artistic.jpg)">
-	    <div class="six columns cattext">
-			<h3 class="imagetoptitle">Artistic</h3>
-			<aside style="color=white"><p>3D & CG, VFX, Digital 2D. Traditional 2D & sketches coming soon.</p></aside>
-		</div>
-		<div class="six columns"></div>
-      </div></a>
+    {{ range .Data.Pages.ByWeight }}
+        {{ if eq .Type  "mainpages" }}
+            {{ .Render "indexchunk"}}
+        {{ end }}
+    {{ end }}
+
 	  
-	  <div class="row"><div class="six columns">&nbsp;</div></div><!--padding hack-->
-	  
-	  <a href="mechanical.html">
-      <div class="row category" style="background:url({{ .Site.BaseURL }}/images/index/other.jpg)">
-	    <div class="six columns cattext">
-			<h3 class="imagetoptitle">Other</h3>
-			<aside style="color=white"><p>Tangible / hardware one-off projects. Mostly gadget & laptop mods.</p></aside>
-		</div>
-		<div class="six columns"></div>
-      </div></a>
 	</div>
 	
     <div class="three columns offset-by-one">
