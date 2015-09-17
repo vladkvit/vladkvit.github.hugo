@@ -1,0 +1,4 @@
+languageCode = "en-us"
+title = "My New asdf Hugo Site"
+theme = "hugo-uno"
+baseurl = "http://127.0.0.1:1313/"

@@ -1,0 +1,10 @@
+name = "Vlad Site"
+description = "minimal personal page"
+homepage = "http://siteforthistheme.com/"
+tags = ["", ""]
+features = ["", ""]
+min_version = 0.13
+
+[author]
+    name = "Vlad Kvitnevskiy"
+    homepage = "vladkvit.github.com"
