@@ -1,8 +1,36 @@
-<h1>section project html</h1>
+{{ partial "header.html" . }}
+
+<title>Vlad Kvitnevskiy / Programming</title>
+<link rel="stylesheet" type="text/css" href="assets/stylesheets/shadowbox.css">
+
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="twelve columns">
+	  <div class="row">
+			<div class="four columns">
+				<h2><a href="index.html">Portfolio</a></h2>
+			</div>
+			<div class="eight columns">
+				<h2>/ Programming</h2>
+			</div>
+	  </div>
+      <hr />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="twelve columns">
 
 {{ range .Data.Pages }}
-	<div>x</div>
-	<div>
 		{{ .Render "summary"}}
-	</div>
 {{ end }}
+
+    </div>
+	
+
+  </div>
+
+{{ partial "footer.html" . }}
