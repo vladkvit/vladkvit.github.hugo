@@ -1,7 +1,7 @@
 +++
 link = "programming.html"
 Title = "Artistic"
-Description = "Various projects & experiments. Includes personal and school projects."
+Description = "3D & CG, VFX, Digital 2D. Traditional 2D & sketches coming soon."
 imagehref = "artistic.jpg"
 Weight = 2
 +++

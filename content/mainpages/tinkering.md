@@ -1,7 +1,7 @@
 +++
 link = "other.html"
 Title = "Other"
-Description = "Various projects & experiments. Includes personal and school projects."
+Description = "Tangible / hardware one-off projects. Mostly gadget & laptop mods."
 imagehref = "other.jpg"
 Weight = 3
 +++

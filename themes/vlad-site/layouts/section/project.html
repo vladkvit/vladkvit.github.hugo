@@ -1,0 +1,8 @@
+<h1>section project html</h1>
+
+{{ range .Data.Pages }}
+	<div>x</div>
+	<div>
+		{{ .Render "summary"}}
+	</div>
+{{ end }}
