@@ -3,21 +3,6 @@
         <div class="four columns">
 		  <h3>{{ .Title }}</h3>
 		  	
-		  	{{ range $key, $value := .Params.testarray }}
-		    <p>key:  {{ $key }},  value: {{ $value}} </p>
-		    {{ end }}
-
-		    <p> data array </p>
-			{{ range $key, $value := .Params.dataarray }}
-			<p>key:  {{ $key }},  value: {{ $value}} </p>
-		    {{ end }}
-
-		    <p> hasharray </p>
-			{{ range $key, $value := .Params.hasharray }}
-				<p>key:  {{ $key }},  value: {{ $value}} </p>
-				<p>fieldone: {{ .fieldone }}, fieldtwo: {{ .fieldtwo }} </p>
-		    {{ end }}
-
 		    <aside><p>programming, real-time, embedded</p></aside>
             {{ .Content }}	
 
@@ -27,26 +12,13 @@
 
 		  <h3></h3><!--Hack for the top margin alighment without custom CSS rules-->
 			<ul class="block-grid two-up" >
+			  {{ range  .Params.summaryimages }}
 			  <li>
-			    <a href="assets/images/Quadcopter/DSCN7754.JPG" rel="shadowbox[quad]">
-				  <img src="assets/images/Quadcopter/thumb/DSCN7754.JPG">
+			    <a href="{{ .imagehref }}" rel="shadowbox[quad]">
+				  <img src="{{ .thumburl }}" alt="{{ .title }}">
 				</a>
 			  </li>
-			  <li>
-			    <a href="assets/images/Quadcopter/DSCN9035.JPG" rel="shadowbox[quad]">
-				  <img src="assets/images/Quadcopter/thumb/DSCN9035.JPG">
-				</a>
-			  </li>
-			  <li>
-			    <a href="assets/images/Quadcopter/DSCN7753.JPG" rel="shadowbox[quad]">
-				  <img src="assets/images/Quadcopter/thumb/DSCN7753.JPG">
-				</a>
-			  </li>
-			  <li>
-			    <a href="assets/images/Quadcopter/DSCN7767.JPG" rel="shadowbox[quad]">
-				  <img src="assets/images/Quadcopter/thumb/DSCN7767.JPG">
-				</a>
-			  </li>
+			  {{ end }}
 			</ul>
 		</div>
       </div>

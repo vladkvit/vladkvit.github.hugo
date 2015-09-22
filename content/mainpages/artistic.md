@@ -1,5 +1,5 @@
 +++
-link = "programming.html"
+link = "/artistic/"
 Title = "Artistic"
 Description = "3D & CG, VFX, Digital 2D. Traditional 2D & sketches coming soon."
 imagehref = "artistic.jpg"
