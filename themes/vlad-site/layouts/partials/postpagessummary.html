@@ -1,14 +1,16 @@
 <section id="quadcopter">
 	  <div class="row">
-        <div class="four columns">
+        <div class="{{ if eq .Params.summary_layout "1and2" }}four columns{{ end }}{{ if eq .Params.summary_layout "2and1" }}eight columns{{ end }}">
 		  <h3>{{ .Title }}</h3>
 		  	
-		    <aside><p>programming, real-time, embedded</p></aside>
+		    <aside><p>
+				{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
+		    </p></aside>
             {{ .Content }}	
-
+            {{ .Params.summary_layout }}
         </div>
 
-		<div class="eight columns">
+		<div class="{{ if eq .Params.summary_layout "1and2" }}eight columns{{ end }}{{ if eq .Params.summary_layout "2and1" }}four columns{{ end }}">
 
 		  <h3></h3><!--Hack for the top margin alighment without custom CSS rules-->
 			<ul class="block-grid two-up" >
