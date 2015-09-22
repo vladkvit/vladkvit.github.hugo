@@ -2,9 +2,22 @@
 	  <div class="row">
         <div class="four columns">
 		  <h3>{{ .Title }}</h3>
-		  {{ range $key, $value := .Params.testarray }}
-		                          a  {{ $key }} b {{ $value}} c
+		  	
+		  	{{ range $key, $value := .Params.testarray }}
+		    <p>key:  {{ $key }},  value: {{ $value}} </p>
 		    {{ end }}
+
+		    <p> data array </p>
+			{{ range $key, $value := .Params.dataarray }}
+			<p>key:  {{ $key }},  value: {{ $value}} </p>
+		    {{ end }}
+
+		    <p> hasharray </p>
+			{{ range $key, $value := .Params.hasharray }}
+				<p>key:  {{ $key }},  value: {{ $value}} </p>
+				<p>fieldone: {{ .fieldone }}, fieldtwo: {{ .fieldtwo }} </p>
+		    {{ end }}
+
 		    <aside><p>programming, real-time, embedded</p></aside>
             {{ .Content }}	
 
