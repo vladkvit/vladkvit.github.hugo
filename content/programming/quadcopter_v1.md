@@ -2,9 +2,8 @@
 Title = "Quadcopter"
 tags = [ "programming", "real-time", "embedded" ]
 summary_layout = "1and2"
-summary_numpics = 4
 weight = 0
-testarray = [ "arr1", "arr2" ]
+summaryimagesrel = "shadowbox[quad]"
 
 [[summaryimages]]
 imagehref = "../images/Quadcopter/DSCN7754.JPG"
