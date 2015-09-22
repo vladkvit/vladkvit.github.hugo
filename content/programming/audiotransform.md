@@ -2,9 +2,9 @@
 Title = "Audio Transform"
 tags = [ "programming", "Matlab" ]
 summary_layout = "2and1"
+summary_numimgcolumns = 1
+summary_imagesrel = "shadowbox[audio]"
 weight = 1
-
-summaryimagesrel = "shadowbox[audio]"
 
 [[summaryimages]]
 imagehref = "../images/audio_transform/stft_mod3.png"

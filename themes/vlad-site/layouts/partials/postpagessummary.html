@@ -12,11 +12,11 @@
 		<div class="{{ if eq .Params.summary_layout "1and2" }}eight columns{{ end }}{{ if eq .Params.summary_layout "2and1" }}four columns{{ end }}">
 
 		  <h3></h3><!--Hack for the top margin alighment without custom CSS rules-->
-			<ul class="block-grid two-up" >
-			  {{ $summaryimagesrel := .Params.summaryimagesrel }}
+			<ul class="block-grid {{ if eq .Params.summary_numimgcolumns 1 }}one-up{{ end }}{{ if eq .Params.summary_numimgcolumns 2 }}two-up{{ end }}{{ if eq .Params.summary_numimgcolumns 4 }}four-up{{ end }}" >
+			  {{ $summary_imagesrel := .Params.summary_imagesrel }}
 			  {{ range  .Params.summaryimages }}
 			  <li>
-			    <a href="{{ .imagehref }}" rel="{{ $summaryimagesrel }}">
+			    <a href="{{ .imagehref }}" rel="{{ $summary_imagesrel }}">
 				  <img src="{{ .thumburl }}" alt="{{ .title }}">
 				</a>
 			  </li>
