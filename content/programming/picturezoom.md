@@ -4,7 +4,7 @@ tags = [ "programming", "pixel bender" ]
 summary_layout = "1and2"
 summary_numimgcolumns = 4
 summary_imagesrel = "shadowbox[picturezoom]"
-weight = 5
+weight = 14
 
 [[summaryimages]]
 imagehref = "/images/zoom_scope/lenna_zoom.png"
@@ -26,4 +26,4 @@ imagehref = "/images/zoom_scope/graphpaper.png"
 thumburl = "/images/zoom_scope/thumb/graphpaper.png"
 title = "g2"
 +++
-<p>I was looking at a website with a "louppe" effect (disqus.com), so I wanted to try doing it with a shader. Then, I added a "drop-off" effect - it seemed aesthetically pleasing.</p>
+<p>I was looking at a website with a "louppe" effect (disqus.com, they've changed it since then), so I wanted to try doing it with a shader. Then, I added a "drop-off" effect - it seemed aesthetically pleasing.</p>

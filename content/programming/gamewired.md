@@ -12,5 +12,5 @@ thumburl = "/images/Wired/thumb/Screenshot.png"
 title = "f2"
 
 +++
-This is from back when I was in highschool. It was my entry for <a href="http://jayisgames.com">JayIsGames</a>'s very first CGDC competition. It's just one level. Try out the game <a href="http://jayisgames.com/cgdc1/?puzzleID=17">here</a>.
+This is from back when I was in highschool. It was my entry for [JayIsGames](http://jayisgames.com)'s very first CGDC competition. It's just one level. Try out the game [here](http://jayisgames.com/cgdc1/?puzzleID=17).
 <!--more-->
