@@ -7,7 +7,7 @@
 		    	{{ $baseurl := .Site.BaseURL }}
 				{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}<a href="{{ $baseurl }}/tags/{{ $e }}">{{ $e }}</a>{{ end }}
 		    </p></aside>
-            {{ .Content }}
+            {{ .Summary }}
         </div>
 
         {{ if ne .Params.summary_layout "3and0" }}
