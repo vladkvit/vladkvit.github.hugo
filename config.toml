@@ -3,5 +3,8 @@ title = "vladkvit.github.io"
 theme = "vlad-site"
 baseurl = "http://127.0.0.1:1313/"
 
+[params]
+	headertitle = "Portfolio"
+
 [taxonomies]
 	tag = "tags"
