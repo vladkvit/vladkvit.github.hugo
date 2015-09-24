@@ -9,12 +9,10 @@ weight = -1
 [[summaryimages]]
 imagehref = "/images/cs488/raytrace/trace1.png"
 thumburl = "/images/cs488/raytrace/trace1.png"
-title = "f2"
 
 [[summaryimages]]
 imagehref = "/images/cs488/raytrace/trace2.png"
 thumburl = "/images/cs488/raytrace/trace2.png"
-title = "f2"
 
 +++
 <p>I wrote my raytracer as a part of my CS488 Graphics course.</p>

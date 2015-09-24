@@ -1,6 +1,6 @@
 +++
 Title = "Thinkpad stuff"
-tags = [ "3D", "Thinkpad" ]
+tags = [ "Tinkering", "Thinkpad" ]
 summary_layout = "1and2"
 summary_numimgcolumns = 2
 summary_imagesrel = "shadowbox[thinkpad]"
@@ -10,14 +10,12 @@ linkable = true
 [[summaryimages]]
 imagehref = "/images/miniPCIe/DSC_1589.jpg"
 thumburl = "/images/miniPCIe/thumb/DSC_1589.jpg"
-title = "f2"
+title = "Testing bootup after soldering"
 
 [[summaryimages]]
 imagehref = "/images/fan_swap/CIMG0048.jpg"
 thumburl = "/images/fan_swap/thumb/CIMG0048.png"
-title = "f2"
-
-
+title = "Heatsink comparison"
 
 +++
 I have a Thinkpad T510. I've done numerous things with it such as adding an extra mini-PCIe slot, upgrading the screen, and upgrading the heatsink.

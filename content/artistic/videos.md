@@ -9,22 +9,22 @@ weight = 3
 [[summaryimages]]
 imagehref = "https://www.youtube.com/watch?v=CUOHpQ7yyjw"
 thumburl = "http://img.youtube.com/vi/CUOHpQ7yyjw/hqdefault.jpg"
-title = "f2"
+title = "Project Artemis splash screen, literally"
 
 [[summaryimages]]
 imagehref = "https://www.youtube.com/watch?v=XOjRU7yUt5s"
 thumburl = "http://img.youtube.com/vi/XOjRU7yUt5s/hqdefault.jpg"
-title = "f2"
+title = "Projection mapping"
 
 [[summaryimages]]
 imagehref = "https://www.youtube.com/watch?v=DMKpPF1DLi4"
 thumburl = "http://img.youtube.com/vi/DMKpPF1DLi4/hqdefault.jpg"
-title = "f2"
+title = "Gauss rifle demonstration"
 
 [[summaryimages]]
 imagehref = "https://www.youtube.com/watch?v=1VsvFL1d4AY"
 thumburl = "http://img.youtube.com/vi/1VsvFL1d4AY/hqdefault.jpg"
-title = "f2"
+title = "Invisible LCD screen"
 
 +++
 A collection of 3D & VFX videos.
