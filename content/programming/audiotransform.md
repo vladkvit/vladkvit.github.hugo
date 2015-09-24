@@ -7,13 +7,13 @@ summary_imagesrel = "shadowbox[audio]"
 weight = 1
 
 [[summaryimages]]
-imagehref = "../images/audio_transform/stft_mod3.png"
-thumburl = "../images/audio_transform/thumb/stft_mod3.png"
+imagehref = "/images/audio_transform/stft_mod3.png"
+thumburl = "/images/audio_transform/thumb/stft_mod3.png"
 title = "f2"
 
 [[summaryimages]]
-imagehref = "../images/audio_transform/Signal.png"
-thumburl = "../images/audio_transform/thumb/Signal.png"
+imagehref = "/images/audio_transform/Signal.png"
+thumburl = "/images/audio_transform/thumb/Signal.png"
 title = "f2"
 
 +++

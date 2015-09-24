@@ -7,8 +7,8 @@ summary_imagesrel = "shadowbox[cs488finalproj]"
 weight = 10
 
 [[summaryimages]]
-imagehref = "../images/cs488/final_proj/fp2.png"
-thumburl = "../images/cs488/final_proj/fp2.png"
+imagehref = "/images/cs488/final_proj/fp2.png"
+thumburl = "/images/cs488/final_proj/fp2.png"
 title = "f2"
 
 +++

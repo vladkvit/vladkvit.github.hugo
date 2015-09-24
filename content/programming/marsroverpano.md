@@ -7,8 +7,8 @@ summary_imagesrel = "shadowbox[marspano]"
 weight = 15
 
 [[summaryimages]]
-imagehref = "../images/Rover_Image_Merging/img_nodots.png"
-thumburl = "../images/Rover_Image_Merging/thumb/img_nodots.png"
+imagehref = "/images/Rover_Image_Merging/img_nodots.png"
+thumburl = "/images/Rover_Image_Merging/thumb/img_nodots.png"
 title = "f2"
 
 +++

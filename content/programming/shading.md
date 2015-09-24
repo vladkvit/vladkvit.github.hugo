@@ -8,13 +8,13 @@ summary_imagesrel = "shadowbox[materialshader]"
 weight = 3
 
 [[summaryimages]]
-imagehref = "../images/BRDF_Shader/rocks1.png"
-thumburl = "../images/BRDF_Shader/thumb/rocks1.png"
+imagehref = "/images/BRDF_Shader/rocks1.png"
+thumburl = "/images/BRDF_Shader/thumb/rocks1.png"
 title = "f2"
 
 [[summaryimages]]
-imagehref = "../images/BRDF_Shader/rocks3.png"
-thumburl = "../images/BRDF_Shader/thumb/rocks3.png"
+imagehref = "/images/BRDF_Shader/rocks3.png"
+thumburl = "/images/BRDF_Shader/thumb/rocks3.png"
 title = "f2"
 +++
 <p><a href="https://www.youtube.com/watch?v=btRh_7UlCwU">Video here</a>.</p>

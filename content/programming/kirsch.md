@@ -7,23 +7,23 @@ summary_imagesrel = "shadowbox[kirsch]"
 weight = 7
 
 [[summaryimages]]
-imagehref = "../images/kirsch/test1_org.png"
-thumburl = "../images/kirsch/thumb/test1_org.png"
+imagehref = "/images/kirsch/test1_org.png"
+thumburl = "/images/kirsch/thumb/test1_org.png"
 title = "f2"
 
 [[summaryimages]]
-imagehref = "../images/kirsch/test1_spec.png"
-thumburl = "../images/kirsch/thumb/test1_spec.png"
+imagehref = "/images/kirsch/test1_spec.png"
+thumburl = "/images/kirsch/thumb/test1_spec.png"
 title = "f2"
 
 [[summaryimages]]
-imagehref = "../images/kirsch/test4_org.png"
-thumburl = "../images/kirsch/thumb/test4_org.png"
+imagehref = "/images/kirsch/test4_org.png"
+thumburl = "/images/kirsch/thumb/test4_org.png"
 title = "f2"
 
 [[summaryimages]]
-imagehref = "../images/kirsch/test4_spec.png"
-thumburl = "../images/kirsch/thumb/test4_spec.png"
+imagehref = "/images/kirsch/test4_spec.png"
+thumburl = "/images/kirsch/thumb/test4_spec.png"
 title = "f2"
 
 +++

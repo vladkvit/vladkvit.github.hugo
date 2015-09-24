@@ -17,8 +17,8 @@
 			  {{ $summary_imagesrel := .Params.summary_imagesrel }}
 			  {{ range  .Params.summaryimages }}
 			  <li>
-			    <a href="{{ .imagehref }}" rel="{{ $summary_imagesrel }}">
-				  <img src="{{ .thumburl }}" alt="{{ .title }}">
+			    <a href="{{ .Site.BaseURL }}{{ .imagehref }}" rel="{{ $summary_imagesrel }}">
+				  <img src="{{ .Site.BaseURL }}{{ .thumburl }}" alt="{{ .title }}">
 				</a>
 			  </li>
 			  {{ end }}

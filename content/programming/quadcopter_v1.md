@@ -7,23 +7,23 @@ summary_imagesrel = "shadowbox[quad]"
 weight = 0
 
 [[summaryimages]]
-imagehref = "../images/Quadcopter/DSCN7754.JPG"
-thumburl = "../images/Quadcopter/thumb/DSCN7754.JPG"
+imagehref = "/images/Quadcopter/DSCN7754.JPG"
+thumburl = "/images/Quadcopter/thumb/DSCN7754.JPG"
 title = "f2"
 
 [[summaryimages]]
-imagehref = "../images/Quadcopter/DSCN9035.JPG"
-thumburl = "../images/Quadcopter/thumb/DSCN9035.JPG"
+imagehref = "/images/Quadcopter/DSCN9035.JPG"
+thumburl = "/images/Quadcopter/thumb/DSCN9035.JPG"
 title = "g2"
 
 [[summaryimages]]
-imagehref = "../images/Quadcopter/DSCN7753.JPG"
-thumburl = "../images/Quadcopter/thumb/DSCN7753.JPG"
+imagehref = "/images/Quadcopter/DSCN7753.JPG"
+thumburl = "/images/Quadcopter/thumb/DSCN7753.JPG"
 title = "g2"
 
 [[summaryimages]]
-imagehref = "../images/Quadcopter/DSCN7767.JPG"
-thumburl = "../images/Quadcopter/thumb/DSCN7767.JPG"
+imagehref = "/images/Quadcopter/DSCN7767.JPG"
+thumburl = "/images/Quadcopter/thumb/DSCN7767.JPG"
 title = "g2"
 
 +++

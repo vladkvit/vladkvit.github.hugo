@@ -7,8 +7,8 @@ summary_imagesrel = "shadowbox[rasterization]"
 weight = 6
 
 [[summaryimages]]
-imagehref = "../images/Matlab_Rasterize/render.png"
-thumburl = "../images/Matlab_Rasterize/thumb/render.png"
+imagehref = "/images/Matlab_Rasterize/render.png"
+thumburl = "/images/Matlab_Rasterize/thumb/render.png"
 title = "f2"
 
 +++

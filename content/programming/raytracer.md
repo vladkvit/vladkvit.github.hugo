@@ -7,13 +7,13 @@ summary_imagesrel = "shadowbox[raytracer]"
 weight = -1
 
 [[summaryimages]]
-imagehref = "../images/cs488/raytrace/trace1.png"
-thumburl = "../images/cs488/raytrace/trace1.png"
+imagehref = "/images/cs488/raytrace/trace1.png"
+thumburl = "/images/cs488/raytrace/trace1.png"
 title = "f2"
 
 [[summaryimages]]
-imagehref = "../images/cs488/raytrace/trace2.png"
-thumburl = "../images/cs488/raytrace/trace2.png"
+imagehref = "/images/cs488/raytrace/trace2.png"
+thumburl = "/images/cs488/raytrace/trace2.png"
 title = "f2"
 
 +++

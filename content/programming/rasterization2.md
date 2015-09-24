@@ -7,8 +7,8 @@ summary_imagesrel = "shadowbox[rasterize2]"
 weight = 13
 
 [[summaryimages]]
-imagehref = "../images/cs488/rasterize/r2.png"
-thumburl = "../images/cs488/rasterize/r2.png"
+imagehref = "/images/cs488/rasterize/r2.png"
+thumburl = "/images/cs488/rasterize/r2.png"
 title = "f2"
 
 +++

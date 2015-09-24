@@ -7,13 +7,13 @@ summary_imagesrel = "shadowbox[tetris]"
 weight = 12
 
 [[summaryimages]]
-imagehref = "../images/cs488/tetris/tetris1.png"
-thumburl = "../images/cs488/tetris/tetris1.png"
+imagehref = "/images/cs488/tetris/tetris1.png"
+thumburl = "/images/cs488/tetris/tetris1.png"
 title = "f2"
 
 [[summaryimages]]
-imagehref = "../images/cs488/tetris/tetris3.png"
-thumburl = "../images/cs488/tetris/tetris3.png"
+imagehref = "/images/cs488/tetris/tetris3.png"
+thumburl = "/images/cs488/tetris/tetris3.png"
 title = "f2"
 
 +++

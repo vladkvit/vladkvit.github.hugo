@@ -7,13 +7,13 @@ summary_imagesrel = "shadowbox[denoising]"
 weight = 8
 
 [[summaryimages]]
-imagehref = "../images/Denoise/noisy2-rgb.png"
-thumburl = "../images/Denoise/thumb/noisy2-rgb.png"
+imagehref = "/images/Denoise/noisy2-rgb.png"
+thumburl = "/images/Denoise/thumb/noisy2-rgb.png"
 title = "f2"
 
 [[summaryimages]]
-imagehref = "../images/Denoise/lena_denoised.png"
-thumburl = "../images/Denoise/thumb/lena_denoised.png"
+imagehref = "/images/Denoise/lena_denoised.png"
+thumburl = "/images/Denoise/thumb/lena_denoised.png"
 title = "f2"
 
 +++

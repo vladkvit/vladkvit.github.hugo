@@ -7,8 +7,8 @@ summary_imagesrel = "shadowbox[wiredgame]"
 weight = 4
 
 [[summaryimages]]
-imagehref = "../images/Wired/Screenshot.png"
-thumburl = "../images/Wired/thumb/Screenshot.png"
+imagehref = "/images/Wired/Screenshot.png"
+thumburl = "/images/Wired/thumb/Screenshot.png"
 title = "f2"
 
 +++
