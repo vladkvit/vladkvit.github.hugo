@@ -1,10 +1,11 @@
 <!--<section id="quadcopter">-->
 	  <div class="row">
         <div class="{{ if eq .Params.summary_layout "1and2" }}four columns{{ end }}{{ if eq .Params.summary_layout "2and1" }}eight columns{{ end }}{{ if eq .Params.summary_layout "3and0" }}twelve columns{{ end }}">
-		  <h3>{{ .Title }}</h3>
+		  <h3>{{ if .Params.linkable }}<a href="{{ .Permalink }}">{{ end }}{{ .Title }}{{ if .Params.linkable }}</a>{{ end }}</h3>
 		  	
 		    <aside><p>
-				{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
+		    	{{ $baseurl := .Site.BaseURL }}
+				{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}<a href="{{ $baseurl }}/tags/{{ $e }}">{{ $e }}</a>{{ end }}
 		    </p></aside>
             {{ .Content }}
         </div>
