@@ -27,4 +27,5 @@ thumburl = "http://img.youtube.com/vi/1VsvFL1d4AY/hqdefault.jpg"
 title = "f2"
 
 +++
-<p>A collection of 3D & VFX videos.</p>
+A collection of 3D & VFX videos.
+<!--more-->

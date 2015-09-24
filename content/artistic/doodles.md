@@ -18,3 +18,4 @@ title = "f2"
 
 +++
 Doodles
+<!--more-->
