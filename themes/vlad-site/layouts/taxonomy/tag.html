@@ -1,1 +1,48 @@
-asdf tag html
+{{ partial "header.html" . }}
+
+<title>Vlad Kvitnevskiy / tags / {{ .Title }}</title>
+<link rel="stylesheet" type="text/css" href="/css/shadowbox.css">
+
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="twelve columns">
+	  <div class="row">
+			<div class="four columns">
+				<h2><a href="../index.html">Portfolio</a></h2>
+			</div>
+			<div class="eight columns">
+				<h2>/ tags / {{ .Title }}</h2>
+			</div>
+	  </div>
+      <hr />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="twelve columns">
+
+    {{ range .Data.Pages }}
+    	{{ .Render "summary" }}
+    	x
+    {{ end }}
+
+
+
+    </div>
+	
+
+  </div>
+
+
+{{ partial "footer.html" . }}
+
+   <script type="text/javascript" src="/js/shadowbox.js"></script>
+  <script type="text/javascript">
+    Shadowbox.init();
+  </script>
+
+</body>
+</html>
