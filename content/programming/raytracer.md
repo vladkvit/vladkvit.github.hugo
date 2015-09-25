@@ -15,5 +15,6 @@ imagehref = "/images/cs488/raytrace/trace2.png"
 thumburl = "/images/cs488/raytrace/trace2.png"
 
 +++
-<p>I wrote my raytracer as a part of my CS488 Graphics course.</p>
-<p>It's pretty straight-forward: single-threaded, non-AA non-accelerated raytracer. It renders polygons and spheres.</p>
+I wrote my raytracer as a part of my [CS488](https://www.student.cs.uwaterloo.ca/~cs488/) Graphics course.
+It's pretty straight-forward: single-threaded, non-AA non-accelerated raytracer. It renders polygons and spheres.
+<!--more-->

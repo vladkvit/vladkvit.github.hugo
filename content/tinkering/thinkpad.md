@@ -18,7 +18,7 @@ thumburl = "/images/fan_swap/thumb/CIMG0048.png"
 title = "Heatsink comparison"
 
 +++
-I have a Thinkpad T510. I've done numerous things with it such as adding an extra mini-PCIe slot, upgrading the screen, and upgrading the heatsink.
+I have a Thinkpad T510. It's been modded with an extra mini-PCIe slot and upgraded heatsink.
 <!--more-->
 
 ##### Extra mini-PCIe slot

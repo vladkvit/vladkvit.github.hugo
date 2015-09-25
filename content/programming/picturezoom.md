@@ -1,5 +1,5 @@
 +++
-Title = "Picture Zoom"
+Title = "Zoom effect"
 tags = [ "programming", "pixel bender" ]
 summary_layout = "1and2"
 summary_numimgcolumns = 4
@@ -26,4 +26,4 @@ imagehref = "/images/zoom_scope/graphpaper.png"
 thumburl = "/images/zoom_scope/thumb/graphpaper.png"
 title = "g2"
 +++
-<p>I was looking at a website with a "louppe" effect (disqus.com, they've changed it since then), so I wanted to try doing it with a shader. Then, I added a "drop-off" effect - it seemed aesthetically pleasing.</p>
+<p>I was looking at a website with a "louppe" effect (disqus.com, the site has changed since then), so I wanted to try doing it with a shader. Then, I added a "drop-off" effect - it seemed aesthetically pleasing.</p>
