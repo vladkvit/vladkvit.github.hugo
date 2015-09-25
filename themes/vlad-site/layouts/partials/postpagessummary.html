@@ -5,7 +5,7 @@
 		  	
 		    <aside><p>
 		    	{{ $baseurl := .Site.BaseURL }}
-				{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}<a href="{{ $baseurl }}/tags/{{ $e }}">{{ $e }}</a>{{ end }}
+				{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}<a href="{{ $baseurl }}/tags/{{ $e | urlize }}">{{ $e }}</a>{{ end }}
 		    </p></aside>
             {{ .Summary }}
         </div>
