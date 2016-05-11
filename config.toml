@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "vladkvit.github.io"
 theme = "vlad-site"
-baseurl = "http://127.0.0.1:1313/"
+baseurl = "https://vladkvit.github.io/"
 
 [params]
 	headertitle = "Portfolio"
